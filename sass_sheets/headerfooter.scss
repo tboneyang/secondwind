@@ -1,0 +1,79 @@
+//header styling
+
+.header{
+  position:absolute;
+  top:0;
+  left:0;
+  padding-top:15px;
+  height:110px;
+  //background:rgba(256, 256, 256, 0.1);
+  background:none;
+  display: inline-block;
+
+  .headermenu{
+    font-size: 1.0em;
+    text-transform: uppercase;
+
+    img:hover{
+      transform: scale(1.15);
+    }
+
+    a{
+      color:black;
+      padding:20px;
+      position:relative;
+    }
+
+  }
+}
+.headerlogo{
+  height:80px;
+  width:80px;
+}
+
+.headerlogo:hover{
+  transform: scale(1.05);
+}
+
+.mail{
+  height:30px;
+  position:absolute;
+  top:22px;
+  left:0px;
+}
+.fb{
+  height:25px;
+  position:absolute;
+  top:24px;
+  left:0px;
+}
+.twitter{
+  height:22px;
+  position:absolute;
+  top:26px;
+  left:0px;
+}
+
+.pnumber{
+  padding-top: 7px;
+  a{
+    color:black
+  }
+}
+.pnumber:hover{
+  transform: scale(1.05);
+}
+
+//footer styling
+
+.footer{
+  overflow:hidden;
+
+  .footermenu{
+    overflow: hidden;
+    float:right;
+    a{
+      padding-left: 40px;
+    }
+  }
+}

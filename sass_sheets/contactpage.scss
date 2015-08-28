@@ -1,0 +1,35 @@
+#contact{
+  height:100vh;
+  text-align: center;
+  position:relative;
+  border-top: 1px solid #f9f9f9;
+  line-height: 100vh;
+  //background-image: url("/vintage.jpg");
+  //background-size:cover;
+
+  span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 4em;
+  }
+
+  .glass{
+    position:absolute;
+    top:0;
+    height:100%;
+    width:33.333333%;
+    z-index: -10;
+    opacity: 0.5;
+  }
+
+  .g1{
+    left:0;
+  }
+  .g2{
+    left:33.333333%;
+  }
+  .g3{
+    left:66.666666%;
+  }
+}

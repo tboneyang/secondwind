@@ -1,1 +1,25 @@
 /* CSS declarations go here */
+html{
+  font-family: GillSans;
+}
+
+
+#wrapper{
+  min-height: 100%;
+}
+
+.floatright{
+  float:right;
+}
+
+.floatleft{
+  float:left;
+}
+
+.clear{
+  clear:both;
+}
+
+.bold{
+  font-weight: bold;
+}

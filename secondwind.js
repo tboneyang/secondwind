@@ -1,23 +1,34 @@
+Tasks = new Mongo.Collection("tasks");
+
 if (Meteor.isClient) {
-  // counter starts at 0
-  Session.setDefault('counter', 0);
+  // This code only runs on the client
+Template.body.helpers({
 
-  Template.hello.helpers({
-    counter: function () {
-      return Session.get('counter');
-    }
-  });
-
-  Template.hello.events({
-    'click button': function () {
-      // increment the counter when button is clicked
-      Session.set('counter', Session.get('counter') + 1);
-    }
   });
 }
 
 if (Meteor.isServer) {
   Meteor.startup(function () {
     // code to run on server at startup
+
+    //var now = new Date();
   });
 }
+
+
+//iron router code
+
+
+Router.route('/', function () {
+  this.render('');
+});
+
+Router._scrollToHash = function(hash) {
+  var section = $(hash);
+  if (section.length) {
+    var sectionTop = section.offset().top;
+    $("html, body").animate({
+      scrollTop: sectionTop
+    }, "slow");
+  }
+};
