@@ -3,6 +3,9 @@ html{
   font-family: GillSans;
 }
 
+a{
+  z-index: 100;
+}
 
 #wrapper{
   min-height: 100%;

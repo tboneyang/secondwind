@@ -11,12 +11,18 @@
   z-index: -1;
   overflow: hidden;
 }
+.midspan{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
 
 .mainslogan{
   text-align: center;
-  padding-top: 25%;
   color:black;
   height:100vh;
+  position:relative;
+  line-height: 100vh;
 
   h2{
     //padding-bottom: 1%;
